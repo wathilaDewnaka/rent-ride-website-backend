@@ -18,7 +18,7 @@ import java.util.Objects;
 @RestController
 @RequestMapping("/api/admin")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://rent-ride-website-brown.vercel.app"})
 public class AdminController {
     private final AdminService adminService;
     private final AuthService authService;
