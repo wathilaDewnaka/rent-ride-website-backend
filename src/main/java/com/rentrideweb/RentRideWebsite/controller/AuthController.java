@@ -23,7 +23,7 @@ import java.util.Random;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://rent-ride-website-brown.vercel.app"})
 @RequiredArgsConstructor
 public class AuthController {
     private final AuthService authService;
