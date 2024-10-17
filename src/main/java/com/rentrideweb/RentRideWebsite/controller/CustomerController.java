@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://rent-ride-website-brown.vercel.app"})
 @RestController
 @RequestMapping("/api/customer")
 @RequiredArgsConstructor
